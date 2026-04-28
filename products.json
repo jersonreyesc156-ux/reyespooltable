@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Full Set Gray Laminated",
+    "description": "Includes 1 set of balls, 2 cues, 1 triangle. Uses Laminated plyboard and Fiberglass.",
+    "price": "6ft x 3 1/2ft - ₱9,000\n5ft x 3 1/2ft - ₱8,000\n4ft x 4ft - ₱7,000\n6ft & 10in x 4ft - ₱12,500\n42in x 70in - ₱9,000\n42in x 60in - ₱8,000\n42in x 50in - ₱7,000\n42in x 54in - ₱7,000\n42in x 42in - ₱7,000\n82in x 45in - ₱12,500",
+    "image": "Gray Laminated.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Full Set Light Brown Laminated",
+    "description": "Includes 1 set of balls, 2 cues, 1 triangle. Uses Laminated plyboard and Fiberglass.",
+    "price": "6ft x 3 1/2ft - ₱9,000\n5ft x 3 1/2ft - ₱8,000\n4ft x 4ft - ₱7,000\n6ft & 10in x 4ft - ₱12,500\n42in x 70in - ₱9,000\n42in x 60in - ₱8,000\n42in x 50in - ₱7,000\n42in x 54in - ₱7,000\n42in x 42in - ₱7,000\n82in x 45in - ₱12,500",
+    "image": "Light Brown Laminated.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Full Set Black Laminated",
+    "description": "Includes 1 set of balls, 2 cues, 1 triangle. Uses Laminated plyboard and Fiberglass.",
+    "price": "6ft x 3 1/2ft - ₱9,000\n5ft x 3 1/2ft - ₱8,000\n4ft x 4ft - ₱7,000\n6ft & 10in x 4ft - ₱12,500\n42in x 70in - ₱9,000\n42in x 60in - ₱8,000\n42in x 50in - ₱7,000\n42in x 54in - ₱7,000\n42in x 42in - ₱7,000\n82in x 45in - ₱12,500",
+    "image": "Black Laminated.jpg"
+  }
+]

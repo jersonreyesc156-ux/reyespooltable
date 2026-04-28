@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orders Dashboard - Reyes Pool Tables</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <header class="hero">
+      <div class="overlay">
+        <h1>Orders Dashboard</h1>
+        <p>View all customer orders submitted from the website</p>
+        <a href="/" class="hero-cta">Back to Website</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="glass-section reveal-on-scroll">
+        <h2>Submitted Orders</h2>
+        <p class="section-note">Newest orders appear first.</p>
+        <div id="orders-list" class="orders-list"></div>
+      </section>
+    </main>
+
+    <script>
+      // Check authentication
+      const token = localStorage.getItem('adminToken');
+      if (!token) {
+        window.location.href = '/login.html';
+      }
+    </script>
+    <script src="orders.js"></script>
+  </body>
+</html>

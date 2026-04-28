@@ -1,0 +1,10 @@
+{
+  "name": "reyes-pool-tables",
+  "version": "1.0.0",
+  "description": "Family business website with product catalog server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
