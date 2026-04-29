@@ -1,0 +1,12 @@
+{
+  "name": "reyes-pool-tables",
+  "version": "1.0.0",
+  "description": "Family business website",
+  "main": "server_simple.js",
+  "scripts": {
+    "start": "node server_simple.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
