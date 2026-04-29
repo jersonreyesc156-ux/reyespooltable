@@ -12,7 +12,7 @@ const JWT_SECRET = "reyes-pool-tables-secret-key-2024"; // Change this to a secu
 // Store valid tokens (in production, use Redis or database)
 const validTokens = new Set();
 
-const DEFAULT_PORT = Number(process.env.PORT) || 3000;
+const DEFAULT_PORT = Number(process.env.PORT) || 10000;
 const ROOT_DIR = __dirname;
 const PRODUCTS_FILE = path.join(ROOT_DIR, "products.json");
 const ORDERS_FILE = path.join(ROOT_DIR, "orders.json");

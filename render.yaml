@@ -1,0 +1,26 @@
+services:
+  # Static file server that runs first
+  - type: web
+    name: static
+    env: static
+    buildCommand: ""
+    startCommand: ""
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # Node.js API server
+  - type: web
+    name: api
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+    routes:
+      - type: rewrite
+        source: /api/*
+        destination: /api/$1
